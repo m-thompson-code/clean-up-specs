@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest test.js --config=jest.config.js --collect-coverage"
+    "test": "jest test.js --config=jest.config.js --collect-coverage",
+    "test:watch": "jest test.js --config=jest.config.js --collect-coverage --watch"
   },
   "author": "",
   "license": "ISC",
